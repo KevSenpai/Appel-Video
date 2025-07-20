@@ -1,0 +1,28 @@
+{
+  "name": "signaling-server",
+  "version": "1.0.0",
+  "description": "Serveur de signalisation pour l'application de communication P2P audio/vidéo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "p2p",
+    "node.js",
+    "socket.io"
+  ],
+  "author": "Adonis Rwabira",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^3.3.7",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
